@@ -33,8 +33,9 @@ def aloqa(update:Updater, context:CallbackQuery):
     context.bot.send_sticker(chat_id=update.message.chat_id, sticker='CAACAgEAAxkBAAEFRQFiz9CPJ-8tsjyiriACfJyLeWJB5AACJgEAAjgOghFsuLJgLC4WcykE')
 
 
+
 def ortga(update:Updater, context:CallbackQuery):
-    context.bot.send_message(chat_id = update.message.chat_id, text = '',reply_markup =buttons)
+    context.bot.send_message(chat_id = update.message.chat_id, text = 'Kerakli  bo`limni tanlang',reply_markup =buttons)
 
 
 
